@@ -19,8 +19,19 @@ const fetchUsers = async(user) => {
 }
 
 const showData = () => {
+    if(nameContainer.hasChildNodes){
+        while(nameContainer.firstChild){
+            nameContainer.removeChild(nameContainer.firstChild);
+        }
+    }
     fetchUsers(inputValue.value).then((res) => {
-        console.log(res);
+        nameContainer.re
+        res.data.forEach(element => {
+            var li=document.createElement('li');
+            li.innerHTML=element.login;
+            nameContainer.appendChild(li);
+            console.log(element.login);
+        });
     })
 }
 
