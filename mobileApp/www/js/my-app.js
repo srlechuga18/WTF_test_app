@@ -30,7 +30,6 @@ const showData = () => {
             var li=document.createElement('li');
             li.innerHTML=element.login;
             nameContainer.appendChild(li);
-            console.log(element.login);
         });
     })
 }

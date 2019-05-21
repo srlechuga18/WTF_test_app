@@ -17,7 +17,7 @@
        under the License.
  */
 
-package io.cordova.hellocordova;
+package ga.lechu18.mobile;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

@@ -1,11 +1,17 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "HelloCordova",
-  "short_name": "HelloCordova",
-  "version": "io.cordova.hellocordova",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Apache Cordova Team",
-  "icons": [],
+  "name": "GitHub Followers",
+  "short_name": "GitHub Followers",
+  "version": "ga.lechu18.mobile",
+  "description": "App que muestra los seguidores en GitHub",
+  "author": "srlechuga18",
+  "icons": [
+    {
+      "src": "res/icono.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
   "start_url": "index.html"
 }
